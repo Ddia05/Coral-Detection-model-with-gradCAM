@@ -29,10 +29,15 @@ All training and inference is done entirely in **Google Colab**, avoiding the ne
 
 ## Directory Structure
 coral_detection_model/
+
 │
+
 ├── All_Images/ # Coral images (img1.png to img342.png)
+
 ├── labels.csv # CSV with image filenames and bleaching scores
+
 ├── coral_classifier.ipynb # Colab notebook for training and prediction
+
 └── README.md # Project readme
 
 ---
@@ -67,7 +72,6 @@ This project contributes to **sustainable ocean monitoring** by enabling scalabl
 
 - Pretrained ResNet18 model from `torchvision`
 - Grad-CAM methodology from open-source implementations
-- Special thanks to myself for labeling and curating the dataset (lol) 
 
 ---
 
